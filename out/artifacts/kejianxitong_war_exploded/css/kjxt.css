@@ -1,0 +1,46 @@
+
+body{
+    background:rgb(235,235,235);
+
+}
+
+.navbar .nav > li .dropdown-menu {
+    margin: 0;
+}
+.navbar .nav > li:hover .dropdown-menu {
+    display: block;
+}
+
+a{
+    color:rgb(241,241,241);
+    text-decoration:none;
+    link:darkgrey;
+    alink:darkgrey;
+    vlink:darkgrey;
+}
+
+a:hover{
+    color:rgb(241,241,241);
+    text-decoration:none;
+}
+
+
+
+
+
+.table-bordered tr td{
+    border:1px solid black;
+}
+
+
+
+dt{
+    background:black;
+    color:lightgrey;
+}
+
+dd{
+    display:none;
+    margin-left:10px;
+    color:black;
+}

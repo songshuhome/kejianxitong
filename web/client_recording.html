@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/kjxt.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <title>学生考勤情况 - 课检系统 - 江西农业大学</title>
+</head>
+
+
+
+<body>
+
+<!--导航-->
+<nav class="navbar navbar-default navbar-inverse">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header col-md-2">
+                <a href="#"><img src="./images/logo.jpg" width="160" height="50" style="float:left"></a>
+            </div>
+            <div class="navbar-inner col-md-10">
+                <ul class="nav navbar-nav col-md-8">
+                    <li class="active"><a href="../js/client_student.html">首页</a></li>
+                    <li><a href="#">点到</a></li>
+                    <li><a href="client_askForLeave.html">请假</a></li>
+                    <li><a href="client_recording.html">个人考勤情况</a></li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="client_recording.html"><span class="glyphicon glyphicon-user"></span>username</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+</br>
+</br>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-3">
+                <dl>
+                    <dt style="background:black;line-height: 50px;text-align:center;"><a href="#personalWeeklyRecording">个人周考勤记录</a></dt>
+                    <dt style="background:black;line-height: 50px;text-align:center;"><a href="#personalMonthlyRecording">个人月考勤记录</a></dt>
+                </dl>
+
+            </div>
+
+
+           <div class="col-md-9" style="border:4px solid grey">
+                        <!--每周个人考勤记录-->
+                            <div id="personalWeeklyRecording">
+            </br>
+            </br>
+            <h2 align="center"><span>username</span>&nbsp;第&nbsp;<span>13</span>&nbsp;周出勤情况</h2>
+            </br>
+            <span align="center">周出勤率：</span>
+            </br>
+            <!--有课：合格/缺勤/请假，没课空白-->
+            <table class="table table-responsive table-bordered table-striped table-condensed table-hover table-radius">
+                <tr>
+                    <th>日期</th>
+                    <th>第一节</th>
+                    <th>第二节</th>
+                    <th>第三节</th>
+                    <th>第四节</th>
+                    <th>第五节</th>
+                    <th>第六节</th>
+                    <th>第七节</th>
+                    <th>第八节</th>
+                    <th>第九节</th>
+                    <th>第十节</th>
+                    <th>第十一节</th>
+                    <th>第十二节</th>
+                    <th>第十三节</th>
+                    <th>缺勤率</th>
+                </tr>
+                <tr>
+                    <td>周一</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>周二</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>周三</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>周四</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>周五</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>周六</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>周日</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                    <td>合格</td>
+                </tr>
+
+
+            </table>
+
+            </br>
+
+
+        </div>
+
+                            <div id="personalMonthlyRecording">
+
+                        </br>
+                        </br>
+                        <h2 align="center"><span>username</span>&nbsp;2017年&nbsp;<span>11</span>&nbsp;月出勤情况</h2>
+                        </br>
+                        <!--有课：合格/缺勤/请假，没课空白-->
+                        <table class="table table-responsive table-bordered table-striped table-condensed table-hover table-radius">
+                            <tr>
+                                <th></th>
+                                <th>第一周</th>
+                                <th>第二周</th>
+                                <th>第三周</th>
+                                <th>第四周</th>
+                                <th>第五周</th>
+                            </tr>
+                            <tr>
+                                <td>缺勤率</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>月平均缺勤率：</td>
+                                <td></td>
+                            </tr>
+
+
+
+
+
+
+
+
+                        </table>
+
+                        </br>
+
+
+                    <!--</div>-->
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+</div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+
+</br>
+</br>
+<!--底部版权标识-->
+<div class="container">
+    <div class="row">
+        <span class="col-md-4 col-md-offset-5" style="position:relative;bottom:0px;">
+            © 2003 - 2017&nbsp; - &nbsp;软件学院&nbsp; - &nbsp;<a href="serverve_login.html" style="color:black">江西农业大学</a>
+        </span>
+    </div>
+</div>
+
+</br>
+
+
+
+</body>
+</html>
